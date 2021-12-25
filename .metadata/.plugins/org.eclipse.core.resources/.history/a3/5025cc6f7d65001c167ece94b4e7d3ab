@@ -1,0 +1,15 @@
+package fundamentos;
+
+public class Temperatura {
+	public static void main(String[] args) {
+		double temp = 100;
+		
+		System.out.println(ConvertToCelsius(temp));
+	}
+	
+	public static double ConvertToCelsius(double tempF) {
+		
+		return (tempF - 32) * 5/9;
+		
+	}
+}

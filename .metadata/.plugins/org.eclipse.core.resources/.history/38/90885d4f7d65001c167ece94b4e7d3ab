@@ -1,0 +1,15 @@
+package fundamentos;
+
+public class Temperatura {
+	public static void main(String[] args) {
+		double temp = 36;
+		
+		System.out.println(CalculateTemp(temp));
+	}
+	
+	public static double CalculateTemp(double tempF) {
+		
+		return (tempF - 32) * 5/9;
+		
+	}
+}
