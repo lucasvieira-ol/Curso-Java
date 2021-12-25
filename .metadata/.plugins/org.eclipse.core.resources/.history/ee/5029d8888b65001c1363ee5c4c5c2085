@@ -12,6 +12,6 @@ public class Inferencia {
 		
 		var d = "teste";
 		
-		System.out.println(b + c + d);
+		
 	}
 }
